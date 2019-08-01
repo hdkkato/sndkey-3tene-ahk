@@ -1,0 +1,62 @@
+@startsalt
+{+
+    {^"Bookmark"
+        {T
+        + Root
+        ++ Folder1
+        +++ Link1
+        +++ SubFolder
+        ++++ Link2
+        ++++ Link3
+        +++ Link4
+        ++ Europe
+        +++ Italy
+        +++ Germany
+        ++++ Berlin
+        ++ Africa
+        }
+    }|
+    {
+        {/ <b>YouTube | Fullscreen | Behavior | Saving }
+        {<&menu> |[<&media-play>]|YouTube|{<font size=10> ""            "" </font>}| ^                   <&magnifying-glass>^}
+        {
+            {+
+                {<font size=140> ""      "" </font>}
+                --
+                {#
+                    {<&media-play> <&media-step-forward> <&volume-high> 0:01/10:31}|
+                    {<font size=12> ""                                                    ""</font>}|
+                    {<&credit-card> <&cog> <&map> <&monitor> <&fullscreen-enter>}
+                }
+            }
+            Title
+            <font size=10> ""   "" </font>
+            {123,456,789 ""                                                             "" <&thumb-up>123 <&thumb-down>123 <&share> <&list> <&ellipses>}
+            --
+            {<&media-play> <&media-step-forward> <&volume-high> 0:01/10:31}
+            {Login<&person> | "MyName   "
+                Password<&key> | "****     "
+                [Cancel <&circle-x>] | [OK <&account-login>]
+            }
+        }
+    }|
+    {
+        {+
+            {+<font size=60> ""  "" </font>}|
+            {<font size=60> ""    "" </font>}
+        }
+        {+
+            {+<font size=60> ""  "" </font>}|
+            {<font size=60> ""    "" </font>}
+        }
+        {+
+            {+<font size=60> ""  "" </font>}|
+            {<font size=60> ""    "" </font>}
+        }
+        {+
+            {+<font size=60> ""  "" </font>}|
+            {<font size=60> ""    "" </font>}
+        }
+    }
+}
+@endsalt
