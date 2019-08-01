@@ -3,17 +3,19 @@ SetWinDelay, 0  ;なるべく高速でアクティブウィンドウの切り替
 Return
 ;---Auto-executeセクション ここまで---
 
-;Shift+数字キーをホットキーに割り当てる
-+1::SndCtrlKey("1")
-+2::SndCtrlKey("2")
-+3::SndCtrlKey("3")
-+4::SndCtrlKey("4")
-+5::SndCtrlKey("5")
-+6::SndCtrlKey("6")
-+7::SndCtrlKey("7")
-+8::SndCtrlKey("8")
-+9::SndCtrlKey("9")
-+0::SndCtrlKey("0")
+;テンキーの数字キーをホットキーに割り当てる
+
+Numpad0::SndCtrlKey("0")
+Numpad1::SndCtrlKey("1")
+Numpad2::SndCtrlKey("2")
+Numpad3::SndCtrlKey("3")
+Numpad4::SndCtrlKey("4")
+Numpad5::SndCtrlKey("5")
+Numpad6::SndCtrlKey("6")
+Numpad7::SndCtrlKey("7")
+Numpad8::SndCtrlKey("8")
+Numpad9::SndCtrlKey("9")
+
 
 
 SndCtrlKey(Key){
